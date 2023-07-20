@@ -1,5 +1,6 @@
 print("Enter the sides of the triangle")
 myinput = input()
+# if we do arr = [myinput.split()] it will create list in a list
 arr = myinput.split()
 semi = 0
 for i in range(0, len(arr)):
