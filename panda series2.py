@@ -5,8 +5,9 @@ numbers = ['10', '11', '12', '13']
 series = pandas.Series(numbers, index=['A', 'B', 'C', 'D'])
 print(series)
 
+# the data is displayed in the order the keys are indexed
 numbers2 = {'num1': '1', 'num2': '2', 'num3': '3'}
-series2 = pandas.Series(numbers2, index=['num1', 'num2', 'num3'])
+series2 = pandas.Series(numbers2, index=['num1', 'num3', 'num2'])
 print(series2)
 
 # finding values from series index
