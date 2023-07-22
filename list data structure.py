@@ -10,6 +10,9 @@ list1.extend(new_list)
 print(list1)
 # only list gets updated. Original new_list doesn't disappear
 print(new_list)
+# using insert method
+list1.insert(1, 10)
+print(list1)
 
 # deleting elements
 del list1[0]
