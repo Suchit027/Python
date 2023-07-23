@@ -1,4 +1,3 @@
-import numpy
 import seaborn
 from matplotlib import pyplot
 
