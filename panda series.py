@@ -8,3 +8,8 @@ print(s)
 data = {'Akshay': 92, 'Aakash': 55, 'Aman': 83}
 s = pandas.Series(data, index=['Akshay', 'Aakash', 'Aman'])
 print(s)
+
+# no need to put index for dictionary
+# index only needed if order of dictionary is to be changed
+f = pandas.Series(data=data)
+print(f)
