@@ -31,3 +31,5 @@ f3 = pandas.Series([1, 2, 3, 4, 5], name='test')
 print(f3.name)
 f3.name = 'update'
 print(f3.name)
+f3 = f3.rename('update2')
+print(f3.name)
