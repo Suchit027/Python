@@ -10,6 +10,10 @@ numbers2 = {'num1': '1', 'num2': '2', 'num3': '3'}
 series2 = pandas.Series(numbers2, index=['num1', 'num3', 'num2'])
 print(series2)
 
+# changing series value
+series2['num1'] = 10
+print(series2)
+
 # finding values from series index
 # series.loc for labels
 print(series['A'])
