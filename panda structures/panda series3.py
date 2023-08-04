@@ -4,6 +4,7 @@ import numpy
 # slicing series
 data = [1, 2, 3, 4, 5]
 f = pandas.Series(data=data)
+print(f.get(2))
 print(f[1:3])
 
 # data greater than its mean
@@ -18,6 +19,7 @@ print(numpy.exp(f))
 # creating scalar series
 f2 = pandas.Series(1, index=[0, 1, 2, 3, 4])
 print(f2)
+print(f2.index)
 
 # vector operations and label alignment
 # addition
