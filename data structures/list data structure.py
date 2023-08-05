@@ -69,3 +69,11 @@ word = 'hello-world'
 list7 = word.split('-')
 print(list7)
 print('=='.join(list7))
+
+# slicing and updating lists
+list8 = [1, 2, 3, 4, 5, 6]
+list9 = list8[::2]
+print(list9)
+# list gets overwritten by this slicing operation
+list9 = list8[::3]
+print(list9)
