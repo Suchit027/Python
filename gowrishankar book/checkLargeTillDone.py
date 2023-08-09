@@ -6,3 +6,4 @@ lis = [a]
 while a != 'done':
     print(max(lis))
     a = input()
+    lis.append(a)
