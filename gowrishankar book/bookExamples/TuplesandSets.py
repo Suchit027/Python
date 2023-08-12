@@ -37,3 +37,6 @@ print(tup4.index(3))
 tup6 = 1, 2
 tup6 += 3,
 print(tup6)
+
+# can't delete elements from a tuple
+
