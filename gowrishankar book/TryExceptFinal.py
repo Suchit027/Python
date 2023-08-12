@@ -8,6 +8,8 @@ try:
     c = a / b
 except ValueError:
     print('not a number')
+except ZeroDivisionError:
+    print('zero division error')
 else:
     print('when no exception is raised')
 finally:
