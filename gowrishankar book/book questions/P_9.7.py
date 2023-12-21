@@ -13,12 +13,10 @@ if __name__ == '__main__':
 
 def main():
     with open('secret_societies.txt') as file:
-        string = file.readlines()
-        for i in string:
+        for i in file:
             i = i.rstrip()
-            lis = list(i)
-            lis.reverse()
-            print(''.join(lis))
+            i = i[::-1]
+            print(i)
 
 
 if __name__ == '__main__':
